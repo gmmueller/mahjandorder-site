@@ -1,0 +1,34 @@
+:root{--teal:#1F5F66;--coral:#F08A7E;--lav:#B9A6E0;--pink:#F2B8C6;--cream:#F4EEE6;--ink:#1d2a2c;--muted:#5b6669}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--cream);color:var(--ink);line-height:1.5}
+a{color:inherit}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header{text-align:center;padding:32px 0 8px}
+header img.logo{width:132px;height:132px;border-radius:50%;box-shadow:0 6px 20px rgba(31,95,102,.18)}
+h1{font-size:2.1rem;font-weight:900;color:var(--teal);margin:12px 0 4px;letter-spacing:-.5px}
+h2{font-size:1.5rem;font-weight:900;color:var(--teal);margin:40px 0 12px}
+.tag{font-size:1.1rem;color:var(--muted);margin:0 0 20px}
+.cast{width:100%;border-radius:18px;display:block}
+.btn{display:block;text-align:center;text-decoration:none;font-weight:800;font-size:1.05rem;padding:15px 18px;border-radius:14px;margin:12px 0;background:var(--teal);color:#fff;transition:transform .12s}
+.btn:hover{transform:translateY(-2px)}
+.btn.coral{background:var(--coral)}.btn.ghost{background:#fff;color:var(--teal);border:2px solid var(--teal)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:#fff;border-radius:18px;overflow:hidden;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.06);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top}
+.card div{padding:12px 14px 16px}
+.card b{display:block;font-size:1.05rem}
+.card q{display:block;color:var(--muted);font-size:.92rem;margin:2px 0 8px}
+.card span{font-weight:800;font-size:.92rem}
+.teal{border-top:6px solid var(--teal)}.teal span{color:var(--teal)}
+.coralb{border-top:6px solid var(--coral)}.coralb span{color:#c95f53}
+.pinkb{border-top:6px solid var(--pink)}.pinkb span{color:#c0637d}
+.lavb{border-top:6px solid var(--lav)}.lavb span{color:#7b63b5}
+.gift{background:#fff;border-radius:16px;padding:16px 18px;margin:12px 0;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.gift .price{float:right;font-weight:900;color:var(--coral);font-size:1.2rem}
+.gift h3{margin:0 0 4px;font-size:1.1rem;color:var(--teal)}
+.gift p{margin:0 0 10px;color:var(--muted)}
+.gift .links a{display:inline-block;margin:4px 6px 0 0;padding:6px 12px;border-radius:999px;font-size:.88rem;font-weight:800;text-decoration:none;background:var(--cream)}
+.disclose{font-size:.88rem;color:var(--muted);background:#fff;border-left:4px solid var(--coral);padding:10px 14px;border-radius:8px;margin:16px 0}
+footer{text-align:center;font-size:.85rem;color:var(--muted);padding:40px 0 48px}
+footer a{margin:0 8px}
+@media(max-width:420px){h1{font-size:1.8rem}.grid{gap:10px}}
